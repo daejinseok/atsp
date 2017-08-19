@@ -12,4 +12,10 @@ rl.question('Input a1 a2 a3... : ', a => {
     }
 );
 
+rl.question('Input a1 a2 a3... : ', a => {
+  console.log(a.split(" "));
+  rl.close();
+}
+);
+
 
